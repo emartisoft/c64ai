@@ -195,7 +195,7 @@ When using a **floppy disk** or an **SD2IEC device**, the file **`c64-UP2400.ser
 
 _Welcome Screen_
 
-![Chat Textbox](doc\04.png "Chat Textbox")
+![Chat Textbox](doc/04.png "Chat Textbox")
 
 _Entering a question in the chat textbox_
 
