@@ -1,0 +1,86 @@
+@@
+C64AI Help
+
+* What is this?
+* Commands
+* Keyboard Shortcuts
+
+What is this?
+=============
+C64AI provides interactive chat
+with artificial intelligence on
+the Commodore 64 (C64) computer,
+while allowing you to listen to
+SID music simultaneously. It 
+supports the Commodore 1351 
+compatible mouse.
+
+For more details, visit
+github.com/emartisoft/c64ai
+
+
+
+Commands:
+=========
+/new       New chat
+
+           Clears the chat
+           history and starts a
+           new conversation.
+
+/lang=xxx  AI writing language
+
+           AI responses are
+           always delivered in
+           the selected language.
+           
+           ex.: /lang=english
+
+/sidfiles  Lists all SID files
+
+           Lists the SID files on
+           the selected disk
+           drive. Displays the
+           filename and block
+           size. Click filename 
+           to load SID file.
+
+/load xxx  Loads & plays SID file
+
+           The SID file must be a
+           max. of 32 blocks
+           (8KB). The load range
+           must start at $1000.
+           
+           If a SID file has a 
+           different load range,
+           use the sidreloc 
+           utility to relocate it
+           to a compatible memory
+           address before 
+           loading.
+           
+           ex.: /load ace2.sid
+
+/play      Plays SID file
+/pause     Pauses SID playback
+/help      Shows this help
+
+           It can also be 
+           accessed by 
+           pressing F1.
+
+Keyboard  Shortcuts
+===================
+F1        Shows this help
+F2        Lists all SID files
+F3        Shows the SID tune info
+F4        Changes disk drive
+F5        Plays the next song
+F6        Shows the last 
+          AI response
+F7        Changes the paper color
+F8        Sends the last 
+          prompt again
+CRSR UP   Next page
+CRSR DOWN Previous page

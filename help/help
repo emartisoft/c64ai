@@ -1,0 +1,87 @@
+@@
+c64ai hELP
+
+º wHAT IS THIS?
+º cOMMANDS
+º kEYBOARD sHORTCUTS
+
+wHAT IS THIS?
+=============
+c64ai PROVIDES INTERACTIVE CHAT
+WITH ARTIFICIAL INTELLIGENCE ON
+THE cOMMODORE 64 (c64) COMPUTER,
+WHILE ALLOWING YOU TO LISTEN TO
+sid MUSIC SIMULTANEOUSLY. iT 
+SUPPORTS THE cOMMODORE 1351 
+COMPATIBLE MOUSE.
+
+fOR MORE DETAILS, VISIT
+GITHUB.COM/EMARTISOFT/C64AI
+
+
+
+cOMMANDS:
+=========
+/NEW       nEW CHAT
+
+           cLEARS THE CHAT
+           HISTORY AND STARTS A
+           NEW CONVERSATION.
+
+/LANG=XXX  ai WRITING LANGUAGE
+
+           ai RESPONSES ARE
+           ALWAYS DELIVERED IN
+           THE SELECTED LANGUAGE.
+           
+           EX.: /LANG=ENGLISH
+
+/SIDFILES  lISTS ALL sid FILES
+
+           lISTS THE sid FILES ON
+           THE SELECTED DISK
+           DRIVE. dISPLAYS THE
+           FILENAME AND BLOCK
+           SIZE. cLICK FILENAME 
+           TO LOAD sid FILE.
+
+/LOAD XXX  lOADS & PLAYS sid FILE
+
+           tHE sid FILE MUST BE A
+           MAX. OF 32 BLOCKS
+           (8kb). tHE LOAD RANGE
+           MUST START AT $1000.
+           
+           iF A sid FILE HAS A 
+           DIFFERENT LOAD RANGE,
+           USE THE SIDRELOC 
+           UTILITY TO RELOCATE IT
+           TO A COMPATIBLE MEMORY
+           ADDRESS BEFORE 
+           LOADING.
+           
+           EX.: /LOAD ACE2.SID
+
+/PLAY      pLAYS sid FILE
+/PAUSE     pAUSES sid PLAYBACK
+/HELP      sHOWS THIS HELP
+
+           iT CAN ALSO BE 
+           ACCESSED BY 
+           PRESSING f1.
+
+kEYBOARD  sHORTCUTS
+===================
+f1        sHOWS THIS HELP
+f2        lISTS ALL sid FILES
+f3        sHOWS THE sid TUNE INFO
+f4        cHANGES DISK DRIVE
+f5        pLAYS THE NEXT SONG
+f6        sHOWS THE LAST 
+          ai RESPONSE
+f7        cHANGES THE PAPER COLOR
+f8        sENDS THE LAST 
+          PROMPT AGAIN
+crsr up   nEXT PAGE
+crsr down pREVIOUS PAGE
+
