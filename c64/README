@@ -1,0 +1,19 @@
+# cmake
+------------------------------
+## build with cmake
+mkdir build
+cd build
+cmake ..
+cmake --build .
+
+## clean
+cmake --build . --target clean
+
+# make
+------------------------------
+## build with make
+make
+
+## clean
+make clean
+
