@@ -1,0 +1,16 @@
+[Unit]
+Description=C64 AI Server
+After=network.target
+
+[Service]
+Type=simple
+User=c64user
+WorkingDirectory=/home/c64user
+ExecStart=/home/c64user/c64aiserver /dev/ttyUSB0
+Restart=always
+RestartSec=2
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

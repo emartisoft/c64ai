@@ -1,0 +1,24 @@
+# First, make systemd notice the new service file:
+sudo systemctl daemon-reload
+
+# To start the service immediately:
+sudo systemctl start c64aiserver
+sudo systemctl start gpio-shutdown
+sudo systemctl start setup
+
+# If you want it to run automatically during boot:
+sudo systemctl enable c64aiserver
+sudo systemctl enable gpio-shutdown
+sudo systemctl enable setup
+
+# To check its status:
+
+systemctl status c64aiserver
+systemctl status gpio-shutdown
+systemctl status setup
+
+# Real-time gossip line to watch logs:
+
+journalctl -u c64aiserver -f
+journalctl -u gpio-shutdown -f
+journalctl -u setup -f

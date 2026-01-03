@@ -1,0 +1,11 @@
+[Unit]
+Description=GPIO Shutdown Button (libgpiod)
+After=multi-user.target
+
+[Service]
+ExecStart=/home/c64user/gpio_shutdown_led
+User=root
+Restart=no
+
+[Install]
+WantedBy=multi-user.target

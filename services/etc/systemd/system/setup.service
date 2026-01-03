@@ -1,0 +1,20 @@
+[Unit]
+Description=C64AI Wi-Fi Setup Portal
+After=NetworkManager.service network-online.target
+Wants=network-online.target
+
+[Service]
+# Kullanıcıyı c64user olarak değiştiriyoruz
+User=root
+# Kullanıcının Home dizinini ayarlıyoruz (Deno path'i için gerekebilir)
+Environment=HOME=/home/c64user
+WorkingDirectory=/home/c64user/setup
+ExecStart=/home/c64user/.deno/bin/deno run -A /home/c64user/setup/server.ts
+# Servis çok hızlı hata verirse sistemi yormamak için bekleme süresi ekleyebiliriz.
+Restart=always
+RestartSec=5s 
+
+[Install]
+WantedBy=multi-user.target
+
+
