@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C64AI Setup</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+        background: #111;
+        color: #0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      form {
+        background: #000;
+        padding: 20px;
+        border: 1px solid #0f0;
+        width: 280px;
+      }
+
+      input,
+      button {
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+        background: #111;
+        color: #0f0;
+        border: 1px solid #0f0;
+        font-size: 14px;
+      }
+
+      button {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="POST" action="/setup">
+      <h2>C64AI Setup</h2>
+      <p>Provide your Wi-Fi credentials to get online.</p>
+      <input name="ssid" placeholder="Wi-Fi SSID" required />
+      <input
+        name="password"
+        type="password"
+        placeholder="Wi-Fi Password"
+        required
+      />
+      <hr style="margin: 15px 0; border-color: #0f0">
+
+      <p>Gemini API configuration</p>
+
+      <input
+        name="gemini_api_key"
+        placeholder="Gemini API Key"
+        required
+      >
+
+      <small style="font-size: 12px; color: #8f8">
+        To create an API key, visit:
+        <br>
+        <a
+          href="https://aistudio.google.com/api-keys"
+          target="_blank"
+          style="color: #0f0"
+        >
+          https://aistudio.google.com/api-keys
+        </a>
+      </small>
+
+      <input
+        name="gemini_model"
+        placeholder="Gemini Model"
+        value="gemini-2.5-flash"
+        required
+      >
+
+      <small style="font-size: 12px; color: #8f8">
+        Available models are listed here:
+        <br>
+        <a
+          href="https://ai.google.dev/gemini-api/docs/models?hl=en"
+          target="_blank"
+          style="color: #0f0"
+        >
+          https://ai.google.dev/gemini-api/docs/models
+        </a>
+      </small>
+
+      <button type="submit">Save & Connect</button>
+    </form>
+  </body>
+</html>
