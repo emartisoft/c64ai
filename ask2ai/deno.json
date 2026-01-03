@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "@google/generative-ai": "npm:@google/generative-ai@^0.24.1",
+    "@std/dotenv": "jsr:@std/dotenv@^0.225.6",
+    "wrap-ansi": "npm:wrap-ansi@^9.0.2"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@std/dotenv@~0.225.6": "0.225.6",
+    "npm:@google/generative-ai@~0.24.1": "0.24.1",
+    "npm:wrap-ansi@^9.0.2": "9.0.2"
+  },
+  "jsr": {
+    "@std/dotenv@0.225.6": {
+      "integrity": "1d6f9db72f565bd26790fa034c26e45ecb260b5245417be76c2279e5734c421b"
+    }
+  },
+  "npm": {
+    "@google/generative-ai@0.24.1": {
+      "integrity": "sha512-MqO+MLfM6kjxcKoy0p1wRzG3b4ZZXtPI+z2IE26UogS2Cm/XHO+7gGRBh6gcJsOiIVoH93UwKvW4HdgiOZCy9Q=="
+    },
+    "ansi-regex@6.2.2": {
+      "integrity": "sha512-Bq3SmSpyFHaWjPk8If9yc6svM8c56dB5BAtW4Qbw5jHTwwXXcTLoRMkpDJp6VL0XzlWaCHTXrkFURMYmD0sLqg=="
+    },
+    "ansi-styles@6.2.3": {
+      "integrity": "sha512-4Dj6M28JB+oAH8kFkTLUo+a2jwOFkuqb3yucU0CANcRRUbxS0cP0nZYCGjcc3BNXwRIsUVmDGgzawme7zvJHvg=="
+    },
+    "emoji-regex@10.6.0": {
+      "integrity": "sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A=="
+    },
+    "get-east-asian-width@1.4.0": {
+      "integrity": "sha512-QZjmEOC+IT1uk6Rx0sX22V6uHWVwbdbxf1faPqJ1QhLdGgsRGCZoyaQBm/piRdJy/D2um6hM1UP7ZEeQ4EkP+Q=="
+    },
+    "string-width@7.2.0": {
+      "integrity": "sha512-tsaTIkKW9b4N+AEj+SVA+WhJzV7/zMhcSu78mLKWSk7cXMOSHsBKFWUs0fWwq8QyK3MgJBQRX6Gbi4kYbdvGkQ==",
+      "dependencies": [
+        "emoji-regex",
+        "get-east-asian-width",
+        "strip-ansi"
+      ]
+    },
+    "strip-ansi@7.1.2": {
+      "integrity": "sha512-gmBGslpoQJtgnMAvOVqGZpEz9dyoKTCzy2nfz/n8aIFhN/jCE/rCmcxabB6jOOHV+0WNnylOxaxBQPSvcWklhA==",
+      "dependencies": [
+        "ansi-regex"
+      ]
+    },
+    "wrap-ansi@9.0.2": {
+      "integrity": "sha512-42AtmgqjV+X1VpdOfyTGOYRi0/zsoLqtXQckTmqTeybT+BDIbM/Guxo7x3pE2vtpr1ok6xRqM9OpBe+Jyoqyww==",
+      "dependencies": [
+        "ansi-styles",
+        "string-width",
+        "strip-ansi"
+      ]
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/dotenv@~0.225.6",
+      "npm:@google/generative-ai@~0.24.1",
+      "npm:wrap-ansi@^9.0.2"
+    ]
+  }
+}
