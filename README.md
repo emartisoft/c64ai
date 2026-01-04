@@ -215,7 +215,7 @@ _First page of the AI response_
 
 Page navigation is performed using **CURSOR UP** or **CURSOR DOWN**. Page navigation is not limited to keys only — pages can also be switched by clicking the **<** and **>** symbols next to the page numbers using a 1351 mouse.
 
-![SID file list](doc\10.png "SID file list")
+![SID file list](doc/10.png "SID file list")
 
 _Accessing the SID file list by clicking the music note icon_
 
