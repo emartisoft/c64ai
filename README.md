@@ -10,7 +10,7 @@ With built-in support for the **Commodore 1351 mouse**, navigating menus and int
 Whether you are running:
 
 * Original Commodore 64 hardware
-* Your favorite emulator
+* Your favorite emulator (Tested with VICE 3.9)
 * A setup with or without a mouse
 
 **C64AI** adapts seamlessly and delivers a true retro computing experience — enhanced with a modern twist. Power up your C64, turn up the SID, and experience what 8-bit computing can still achieve.
