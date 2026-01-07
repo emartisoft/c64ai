@@ -1,7 +1,7 @@
 ![C64AI](./doc/tanitim.png "C64AI")
 
 # C64AI
-**C64AI** brings the spirit of modern artificial intelligence to the legendary **Commodore 64** — without sacrificing the authentic retro experience. While chatting with an AI on real 8-bit hardware, you can simultaneously enjoy classic **SID music**, just like the golden days of home computing.
+**C64AI** brings the spirit of modern artificial intelligence to the legendary **Commodore 64** — without sacrificing the authentic retro experience. While chatting with an AI on real 8-bit hardware, you can simultaneously enjoy classic **SID music**, just like the golden days of home computing. (https://www.youtube.com/watch?v=YmIsD-U5dIw)
 
 Chat interaction and music playback run side by side, smoothly and continuously, proving that the C64 still has plenty of magic left under the hood.
 
